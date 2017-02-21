@@ -1,0 +1,9 @@
+Finish the calculator:
+
+1.) Add buttons 7-9. Make sure these numbers work with the calculator's current functions. If they don't, change the js functions so that they do.
+2.) Add multiply and divide. Make sure these operations still work. If they don't, change the js functions so that they do.
+
+Challenge:
+3.) Add "clear" button, to clear what the calculator has so far
+4.) Add decimal so that the calculator can handle more than just integers.
+5.) Add CSS styling to the calculator.
