@@ -1,0 +1,10 @@
+Finish the calculator:
+0.) Create a js file. Link your js file to the html calculator markup ("calculator_markup.html")
+1.) Edit the markup to distinguish what function is linked to "onclick" of a certain button.
+	Hint: Change the "fill me out" spaces to designate what is a number, operation, etc.
+2.) Write a function so that when you press a button, the number/operation you press is reflected in the "result" box.
+3.) Write a function to evaluate the input into the calculator.
+4.) Write a function that makes the clear button work.
+
+Challenge:
+Add styling (Css) to make your calculator pretty! ONLY go on to this step once your calculator is completely functional and does all the steps described above.
