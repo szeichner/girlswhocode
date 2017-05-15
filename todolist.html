@@ -5,27 +5,22 @@
 <!--link to css and javascript here-->
 <!-- Latest compiled and minified CSS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="todolist.js">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="todolist.css">
-<script src="todolistfun.js"> </script>
+
 </head>
 
-<body>
+<body onload="pageRender()">
 
-<form>
-	Add: <br>
-	<input type="text" name="add new item" id="inputBox" onclick= submittask><br>
-	Add: <br>
-	<input type="text" name="add new item" id="inputBox">
-</form>
- 
-<form action="/action_page.php" method="get">
-  <input type="checkbox" name="vehicle" id="Bike"> Clean room<br>
-  <input type="checkbox" name="vehicle" id="Car" checked="checked"> Do homework<br>
-  <input type="Submit" id="Submit" onclick=AddNewToDoListItem()>
-</form>
-<div class="input_fields_wrap">
-    <button class="add_field_button">Add More Fields</button>
-    <div><input type="text" name="mytext[]"></div>
-</div>
+
+<input type="text" id="inputText1"></input>
+
+<button onclick="addTask()" type="button">Add</button>
+
+<ul>
+
+</ul>
+     
+</body>
+</html>
