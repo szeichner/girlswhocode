@@ -1,0 +1,17 @@
+﻿h1{
+	color:;
+	text-align:center;
+	border: solid black 5px;
+	padding: 20px;
+	font-size: 60px;
+}
+
+body{
+	background-color:rgba(18, 149, 162, 0.35);
+	font-family: 'Amatic SC', cursive;
+	text-align:center;
+}
+
+h3{
+	font-size: 30px;
+}
