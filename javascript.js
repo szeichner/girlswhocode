@@ -1,5 +1,6 @@
 //add javscript here
-function savejournalentry() 
+function savejournalentry()
+
 {
     var oldEntry = localStorage.getItem("oldentry");
     var journalEntry = document.getElementById("newentry").value;
@@ -14,7 +15,8 @@ function savejournalentry()
 	{
 	//if there is text then it will save if not then it will not save
 		localStorage.setItem("oldentry", entryArray);
-	    clearEntry();	
+	    clearEntry();
+        location.reload();
 	}
 }
 
@@ -35,7 +37,7 @@ function getOldEntry()
     var text, fLen, i;
 fLen = oldEntry.length;
 text = "<ul>";
-for (i = 0; i < fLen; i++) {
+for (i = fLen - 1; i >= 0; i--) {
     text += "<li>" + oldEntry[i] + "</li>";
     var mi = document.createElement("input");
     mi.setAttribute('type', 'text');
