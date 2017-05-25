@@ -1,0 +1,16 @@
+body {
+    background-color: #ABD8FF;
+    font-family: 'Abel', sans-serif;
+}
+#Textbox {
+    border: 5px solid #4F7CAC;
+    
+}
+#newentry {
+    width: 100%;
+    padding: 10px;
+    
+}
+button {
+    font-family: 'Abel', sans-serif;
+}

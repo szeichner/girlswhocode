@@ -1,0 +1,28 @@
+﻿h1{
+	color:#2DAEFF;
+	text-align:center;
+	font-size: 60px;
+	background-color:white;
+	margin-left:500px;
+	margin-right:500px;
+
+}
+
+body{
+	background-color:#C0A9B0;
+	font-family: 'Amatic SC', cursive;
+	text-align:center;
+
+
+}
+
+h3{
+	font-size: 36px;
+	border:dotted 7px;
+	margin:60px;
+	padding:25px;
+	margin-left:500px;
+	margin-right:500px;
+	border-color:#6E75AD;
+	
+}
